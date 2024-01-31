@@ -5,7 +5,7 @@
 
 ### Texto ingresado
 for $x in (1 to 5)
-return <test>{$x} </test>
+return <test>{$x}'</test>'
 
 ### Resultado
 <test>1</test>
