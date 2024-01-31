@@ -4,7 +4,7 @@
 
 ### Aviso
 
-En este ejercicio no salen todos los enunciados que he utilizado porque el propio programa lo suprime. EN caso de querer ver todo el código utilizado por favor entra en la pestaña de "code" o "raw".
+En este ejercicio no salen todos los enunciados que he utilizado porque el propio programa lo suprime. En caso de querer ver todo el código utilizado por favor entra en la pestaña de "code" o "raw".
 
 ## Ejercicio 1
 
