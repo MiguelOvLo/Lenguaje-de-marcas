@@ -1,11 +1,13 @@
 <div align = “justify">
-#Books
+# Books
+## Aviso
+En este ejercicio no salen todos los enunciados que he utilizado porque el propio programa lo suprime. EN caso de querer ver todo el código utilizado por favor entra en la pestaña de "code" o "raw".
 
 ## Ejercicio 1
 
 ### Texto ingresado
 for $x in (1 to 5)
-return <test>{$x}'</test>'
+return <test>{$x}</test>
 
 ### Resultado
 <test>1</test>
