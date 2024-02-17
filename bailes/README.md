@@ -2,19 +2,14 @@
 
 ## Bailes
 
-### Aviso
-
-En este ejercicio no salen todos los enunciados que he utilizado porque el propio programa lo suprime. En caso de querer ver todo el código utilizado por favor entra en la pestaña de "code" o "raw".
-
 ## Ejercicio 1
 
-- for $baile in doc ("bailes.xml")/balies/balie/nombre/text()
+for $baile in doc ("bailes.xml")/balies/balie/nombre/text()
 return$baile
 
 ## Ejercicio 2
 
-- for $baile in doc ("bailes.xml")//baile
-
+for $baile in doc ("bailes.xml")//baile
 return
 <baile>
   <nombre>{$baile/nombre/text()}</nombre>
@@ -23,7 +18,7 @@ return
 
 ## Ejercicio 3
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/number(precio) > 40
 return
 <baile>
@@ -33,7 +28,7 @@ return
 
 ## Ejercicio 4
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 order by $baile/nombre 
 return
 <baile>
@@ -42,7 +37,7 @@ return
 
 ## Ejercicio 5
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/nombre[contains(text(),'a')]
 return
 <baile>
@@ -51,7 +46,7 @@ return
 
 ## Ejercicio 6
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/profesor[contains(text(),'lia')]
 return
 <baile>
@@ -60,7 +55,7 @@ return
 
 ## Ejercicio 7
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile[@id != 3 and  @id != 5] 
 return
 <baile>
@@ -69,7 +64,7 @@ return
 
 ## Ejercicio 8
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/precio[@cuota="mensual"]
 return
 <baile>
@@ -78,7 +73,7 @@ return
 
 ## Ejercicio 9
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/sala[text()= 001 and ../precio/@moneda="euros"] 
 return
 <baile>
@@ -87,7 +82,7 @@ return
 
 ## Ejercicio 10
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 return
 <bailes>
   <nombre>{$baile/nombre/text()}</nombre>
@@ -96,7 +91,7 @@ return
 
 ## Ejercicio 11
 
-- for $baile in doc ("bailes.xml")//baile
+for $baile in doc ("bailes.xml")//baile
 where $baile/sala[text()= 001 and ../precio/@moneda="euros" and ../precio>35 ]
 return
 <baile>
@@ -105,7 +100,7 @@ return
 
 ## Ejercicio 12
 
-- <html>
+ <html>
   <head><title>Consulta Pagina Web</title></head>
   <body>
   <table border ="2"> Tabla1
