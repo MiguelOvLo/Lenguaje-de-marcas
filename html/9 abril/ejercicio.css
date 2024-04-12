@@ -1,0 +1,35 @@
+table{
+    background-color: wheat;
+    border: 10px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.cabecera{
+    background-color: orange;
+    color: green;
+}
+
+.euroDolar{
+    background-color: whitesmoke;
+}
+
+.dolarYen{
+    background-color: lightgrey;
+}
+
+.libraDolar{
+    background-color: lightslategray;
+}
+
+.yenEuro{
+    background-color: gray;
+}
+
+tr{
+    background-color: cyan;
+}
+
+tr:nth-child(even){
+    background-color: greenyellow;
+}

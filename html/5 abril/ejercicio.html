@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de datos</title>
+    <link rel="stylesheet" href="ejercicio.css">
+</head>
+<body>
+    <h3>Miguel Ovalle</h3>
+
+    <section>
+       <h3>Datos del propietario</h3>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="hombre" name="sexo" value="hombre" checked>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label>
+        </p>
+    </section>
+
+    <section>
+        <h3>Datos del vehículo</h3>
+        <p>
+            <label for="marca">Marca/modelo:</label>
+            <input type="text" id="marca" name="marca" required>
+        </p>
+        <p>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+        </p>
+        <p>
+        
+        <label for="tipo">Tipo: </label>
+
+        <select name="tipo" id="tipo">
+            <option value="Utilitario">Utilitario</option>
+            <option value="TodoTerreno">Todo Terreno</option>
+            <option value="AltaGama">Alta Gama</option>
+
+
+        </select>
+
+        </p>
+    </section>
+
+    <section>
+        <h3>Otros datos</h3>
+        <p>
+            <label for="servofrenos">Servofrenos:</label>
+            <input type="checkbox" id="servofrenos" name="otros[]" value="servofrenos" checked>
+            <label for="servofrenos">Servofrenos</label>
+            <input type="checkbox" id="elevalunas" name="otros[]" value="elevalunas" checked>
+            <label for="elevalunas">Elevalunas</label>
+            <input type="checkbox" id="remolque" name="otros[]" value="remolque">
+            <label for="remolque">Remolque</label>
+        </p>
+    </section>
+
+    <section>
+        <input type="submit" value="Enviar" onclick="enviarFormulario()">
+    </section>
+
+    <script>
+        function enviarFormulario() {
+            alert("Formulario enviado");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio_practico.css">
+
+</head>
+<body>
+    <h2 style="text-align: center;">Hoja de inscripción</h2>
+    <h2 style="text-align: center;">en los ciclos formativos de grado superior</h2>
+    <form name="form1">
+            <h2>Datos Personales</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+            <label for="localidad_nacimiento">Localidad de Nacimiento:</label>
+            <input type="text" id="localidad_nacimiento" name="localidad_nacimiento" required>
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" name="provincia" required>
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>  
+        
+    </form>
+    <form>
+        
+        <h2>Forma de Acceso</h2>
+        <p>Seleccione su forma de acceso:</p>
+        <input type="radio" id="acceso_directo" name="acceso" value="directo" checked>
+        <label for="acceso_directo">Acceso Directo</label><br>
+        <input type="radio" id="acceso_pruebas" name="acceso" value="pruebas">
+        <label for="acceso_pruebas">Pruebas Libres</label><br>
+    </form>  
+    <form>    
+        <h2>Documentos Adjuntados</h2>
+        <p>Seleccione los documentos que adjunta:</p>
+        <input type="checkbox" id="fotocopia_dni" name="documentos[]" value="fotocopia_dni" checked>
+        <label for="fotocopia_dni">Fotocopia DNI</label><br>
+        <input type="checkbox" id="certificado_academico" name="documentos[]" value="certificado_academico" checked>
+        <label for="certificado_academico">Certificado Académico</label><br>
+        <input type="checkbox" id="otros_documentos" name="documentos[]" value="otros_documentos">
+        <label for="otros_documentos">Otros documentos (especifique):</label>
+        <input type="text" id="otros_documentos_especificacion" name="otros_documentos_especificacion">
+        <br><br>
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+</body>
+</html>
