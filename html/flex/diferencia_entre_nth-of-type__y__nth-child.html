@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo nth-child y nth-of-type</title>
+  <style>
+
+    /* Estilo por defecto */
+    li {
+      background-color: #ccc;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 5px dashed;
+
+    }
+
+    /* Estilo nth-child */
+
+    li:nth-child(odd) {
+      background-color: #f0f0f0;
+      border: 5px solid bisque;
+
+    }
+
+    /* Estilo nth-of-type */
+    li:nth-of-type(2) {
+      background-color: #e0e0e0;
+      border: 5px groove white;
+
+    }
+
+    /*  nth-child se basa en la posición del elemento dentro de todos los tipos de elementos hijos 
+        mientras nth-of-type se basa en la posición del elemento dentro de su propio tipo. */
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+  </ul>
+
+</body>
+</html>
