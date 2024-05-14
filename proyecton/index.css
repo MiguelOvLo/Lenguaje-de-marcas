@@ -1,0 +1,16 @@
+header h3 {
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3cXx3qUJ5ECMB3Vl64gmP7piVLkv6FUYbq9vvpyJUQ&s);
+}
+
+header nav h3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(205, 56, 56);
+    display: block;
+
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+}
