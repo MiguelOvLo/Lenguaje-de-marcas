@@ -85,6 +85,11 @@ header{
     display: none;
 }
 
+.menu-icono:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 .menu label{
     cursor: pointer;
     display: none;
