@@ -97,12 +97,13 @@ header{
 
 .header-text h1{
     color: #ffffff;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .header-text p{
     color: #ffffff;
-    margin-top: 35px;
+    margin-top: 25px;
+    font-size: 18px;
 }
 
 .productos{
@@ -112,7 +113,7 @@ header{
 }
 
 .productos h2{
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 25px;
 }
 
@@ -215,7 +216,7 @@ header{
 }
 
 .bg-txt h2{
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 35px;
 }
 
@@ -259,7 +260,6 @@ footer{
     display: block;
     color: #ffffff;
     margin-bottom: 10px;
-
 }
 
 .ft{
