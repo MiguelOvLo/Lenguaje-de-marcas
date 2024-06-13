@@ -1,0 +1,6 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(È™˜ìùÿÿÿÿ8ÌÓ¶õş1J$a26c6d77-b2de-427e-ac1a-6574a10b40a1
+r	java:S106"+Replace this use of System.out by a logger.(ÒãÅøÿÿÿÿ8ÎÓ¶õş1J$a734235f-5c24-4a41-b8d1-870a3a3e1048
+ƒ
+java:S1128"@Remove this unused import 'com.mongodb.client.model.Filters.eq'.(©§›8Ä÷ş1J$9dd04a8a-0692-45f3-8379-527ca920ff04
+›secrets:S6694"PMake sure this MongoDB database password gets changed and removed from the code.(¹Â¹äùÿÿÿÿ8öì‡÷ş1J$583b17aa-fbd8-47f9-aa70-6db6a2c6bffa
